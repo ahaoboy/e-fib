@@ -1,8 +1,6 @@
 // @ts-nocheck
 type Len<T extends any[]> = T["length"];
-// @ts-ignore
 type IncList<T extends any[]> = [any, ...T];
-// @ts-ignore
 type AddList<A extends any[], B extends any[]> = [...A, ...B];
 type FromLen<T extends number, A extends any[] = []> = Len<A> extends T
   ? A
@@ -24,5 +22,4 @@ export type Fib<N extends number> = N extends 0
   ? 0
   : N extends 1
   ? 1
-  : // @ts-ignore
-    Add<Fib<Sub<N, 1>>, Fib<Sub<N, 2>>>;
+  : Add<Fib<Sub<N, 1>>, Fib<Sub<N, 2>>>;

@@ -31,7 +31,7 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "@e-fib/core",
+  "name": "e-fib-core",
   "author": "阿豪boy",
   "module": "dist/core.esm.js",
   "size-limit": [
