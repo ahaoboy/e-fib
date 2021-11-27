@@ -33,7 +33,7 @@
   },
   "name": "e-fib-core",
   "author": "阿豪boy",
-  "module": "dist/core.esm.js",
+  "module": "dist/e-fib-core.esm.js",
   "size-limit": [
     {
       "path": "dist/core.cjs.production.min.js",

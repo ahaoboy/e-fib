@@ -382,13 +382,13 @@
   "projects": [
     {
       "packageName": "e-fib-core",
-      "projectFolder": "apps/core",
+      "projectFolder": "apps/core"
       // "reviewCategory": "tools",
       // "shouldPublish": true
     },
     {
       "packageName": "e-fib-web",
-      "projectFolder": "apps/web",
+      "projectFolder": "apps/web"
       // "reviewCategory": "production",
       // "shouldPublish": true
     }
