@@ -1,30 +1,34 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@rush-temp/core': file:./projects/core.tgz
-  '@rush-temp/web': file:./projects/web.tgz
+  '@rush-temp/e-fib-core': file:./projects/e-fib-core.tgz
+  '@rush-temp/e-fib-web': file:./projects/e-fib-web.tgz
   '@size-limit/preset-small-lib': ^7.0.3
   '@vitejs/plugin-vue': ^1.9.3
   husky: ^7.0.4
+  lodash-es: ~4.17.21
   size-limit: ^7.0.3
   tsdx: ^0.14.1
   tslib: ^2.3.1
+  typescript: ~4.5.2
   vite: ^2.6.4
   vue: ^3.2.16
   vue-tsc: ^0.3.0
 
 dependencies:
-  '@rush-temp/core': file:projects/core.tgz
-  '@rush-temp/web': file:projects/web.tgz
+  '@rush-temp/e-fib-core': file:projects/e-fib-core.tgz
+  '@rush-temp/e-fib-web': file:projects/e-fib-web.tgz
   '@size-limit/preset-small-lib': 7.0.3_size-limit@7.0.3
   '@vitejs/plugin-vue': 1.10.1_vite@2.6.14
   husky: 7.0.4
+  lodash-es: 4.17.21
   size-limit: 7.0.3
   tsdx: 0.14.1
   tslib: 2.3.1
+  typescript: 4.5.2
   vite: 2.6.14
   vue: 3.2.23
-  vue-tsc: 0.3.0
+  vue-tsc: 0.3.0_typescript@4.5.2
 
 packages:
 
@@ -7282,15 +7286,6 @@ packages:
       vscode-typescript-languageservice: 0.27.25
     dev: false
 
-  /vue-tsc/0.3.0:
-    resolution: {integrity: sha512-zaDRZBxwRIz1XjhNP92FqugG71st6BUMnA2EwPeXrAyzbEYVRz6TezNFceYl3QYqqN8CtaxbqUhaQEDj/ntoCA==}
-    hasBin: true
-    peerDependencies:
-      typescript: '*'
-    dependencies:
-      vscode-vue-languageservice: 0.27.30
-    dev: false
-
   /vue-tsc/0.3.0_typescript@4.5.2:
     resolution: {integrity: sha512-zaDRZBxwRIz1XjhNP92FqugG71st6BUMnA2EwPeXrAyzbEYVRz6TezNFceYl3QYqqN8CtaxbqUhaQEDj/ntoCA==}
     hasBin: true
@@ -7499,9 +7494,9 @@ packages:
       yargs-parser: 18.1.3
     dev: false
 
-  file:projects/core.tgz:
-    resolution: {integrity: sha512-wP/FA3WkDOBWsT1T62cgUIOoaJrrqoCjE9GNOH6hnWH3qHPk63vxkNjNSOOv4T/Q+v6ii26OQVV/TFrxwiW3qA==, tarball: file:projects/core.tgz}
-    name: '@rush-temp/core'
+  file:projects/e-fib-core.tgz:
+    resolution: {integrity: sha512-KIjIdRZWTxWmdyhYbEStIzgXyq8JskgNEK+7MgXWVgu4RRV4gX7LXgRu7KGFleL1oEtmk1f9MJDlLPv+RTfwWg==, tarball: file:projects/e-fib-core.tgz}
+    name: '@rush-temp/e-fib-core'
     version: 0.0.0
     dependencies:
       '@size-limit/preset-small-lib': 7.0.3_size-limit@7.0.3
@@ -7520,9 +7515,9 @@ packages:
       - utf-8-validate
     dev: false
 
-  file:projects/web.tgz:
-    resolution: {integrity: sha512-sZeiXhavHA/cV841F/9PWNiAycMle0vwlfDo1rD38cBX9bA/GpaDp49SzlcBiryTLaARHjnwzIrvagUl3TSLrw==, tarball: file:projects/web.tgz}
-    name: '@rush-temp/web'
+  file:projects/e-fib-web.tgz:
+    resolution: {integrity: sha512-dtxZIiqLLI/NCDaPJ/bJ2x0RR7NXKKQVyiCSK7Lpv2CXCyMXJFFuIubnd+wgmIYoEvmfIxD0O2V8WtknYYHvTA==, tarball: file:projects/e-fib-web.tgz}
+    name: '@rush-temp/e-fib-web'
     version: 0.0.0
     dependencies:
       '@vitejs/plugin-vue': 1.10.1_vite@2.6.14
